@@ -30,7 +30,7 @@ class TestCalculator(unittest.TestCase):
     def test_divide(self):
         self.assertEqual(self.calc.divide(4, 2), 2)
     def test_divide2(self):
-         self.assertEqual(self.calc.divide(2, -2), -4)
+         self.assertEqual(self.calc.divide(2, -2), -1)
     def test_divide3(self):
         self.assertEqual(self.calc.divide(-4, -4), 1)
     def test_divide4(self):
